@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/news1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="272dp"
+        android:textColor="@color/colorAccent"
+        android:text="URL"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="-181dp"
+        android:layout_toStartOf="@+id/urlToImage"
+        android:text="DESCRIPTION"
+        android:textColor="@color/colorAccent"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginRight="269dp"
+        android:textColor="@color/colorAccent"
+        android:text="AUTHOR"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="340dp"
+        android:text="TITLE"
+        android:textSize="12pt"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/publishedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/description"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="138dp"
+        android:text="PUBLISHEDAT"
+        android:textColor="@color/colorAccent"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:id="@+id/urlToImage"
+        android:layout_width="228dp"
+        android:layout_height="51dp"
+
+        android:layout_alignEnd="@+id/source"
+        android:layout_alignBottom="@+id/source"
+        android:layout_marginEnd="-94dp"
+        android:layout_marginBottom="-235dp"
+        android:textColor="@color/colorAccent"
+        android:text="URLTOIMAGE"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignBottom="@+id/title"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="-291dp"
+        android:layout_toEndOf="@+id/description"
+        android:text="CONTENT"
+        android:textColor="@color/colorAccent"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
